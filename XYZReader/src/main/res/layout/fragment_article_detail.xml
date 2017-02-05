@@ -9,13 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:elevation="4dp"
+        android:id="@+id/toolbar_container"
         >
 
         <android.support.design.widget.CollapsingToolbarLayout
-            android:id="@+id/toolbar_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+            android:background="@android:color/transparent">
 
 
             <ImageView
